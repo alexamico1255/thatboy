@@ -1,0 +1,156 @@
+/* mystyle.css */
+
+body {
+  background-color: #e5e5e5
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+header img {
+  width: 150px;
+}
+
+.title {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.box {
+  background-color: #42E8FF;
+  width: 125px;
+  height: 25px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.box a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: black;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+}
+
+main > div {
+  flex: 1;
+}
+
+main p {
+  font-size: 24px;
+}
+
+main img {
+  float: right;
+  max-width: 100%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 600px;
+}
+
+footer {
+  text-align: center;
+}
+
+  table.product-table img {
+    max-width: 150px;
+    height: auto;
+  }
+
+
+.contact-box {
+  background-color: #42E8FF;
+  padding: 20px;
+  color: black;
+  margin-bottom: 3px;
+  width: 350%;
+}
+
+.contact-box p {
+  color: black;
+}
+
+main > div.contact-box:nth-child(1) {
+  flex-basis: calc(100% - 20px);
+}
+
+main > div.contact-box:nth-child(2),
+main > div.contact-box:nth-child(3),
+main > div.contact-box:nth-child(4)
+main > div.contact-box:nth-child(5) {
+  flex-basis: 100%;
+}
+
+.social-media-table {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.social-media-cell {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px; /* Add spacing between icons */
+}
+
+.social-media-cell img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.content-container {
+  position: relative;
+}
+
+.contact-container {
+  width: 75%;
+}
+
+.image-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(250%);
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
