@@ -93,7 +93,7 @@ footer {
   padding: 20px;
   color: black;
   margin-bottom: 3px;
-  width: 200%;
+  width: 115%;
 }
 
 .contact-box p {
@@ -104,7 +104,7 @@ footer {
 .contact-box input[type="email"],
 .contact-box textarea {
   width: 100%; /* Adjust the width as needed */
-  height: 100px; /* Adjust the height as needed */
+  height: 50px; /* Adjust the height as needed */
   resize: none; /* Prevent resizing of textarea */
 }
 
