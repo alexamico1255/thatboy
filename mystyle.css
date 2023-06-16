@@ -93,12 +93,22 @@ footer {
   padding: 20px;
   color: black;
   margin-bottom: 3px;
-  width: 350%;
+  width: 200%;
 }
 
 .contact-box p {
   color: black;
 }
+
+.contact-box input[type="text"],
+.contact-box input[type="email"],
+.contact-box textarea {
+  width: 100%; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
+  resize: none; /* Prevent resizing of textarea */
+}
+
+
 
 main > div.contact-box:nth-child(1) {
   flex-basis: calc(100% - 20px);
